@@ -1,0 +1,125 @@
+@import url("https://fonts.googleapis.com/css2?family=Balsamiq+Sans:wght@400;700&family=Cherry+Bomb+One&display=swap");
+* {
+  text-decoration: none;
+}
+.bg_lightgreen {
+  background-color: rgba(154, 204, 68, 1);
+}
+.ff_chary {
+  font-family: "Cherry Bomb One", cursive;
+}
+.fs_60 {
+  font-size: 60px;
+}
+.ff_balsmiq {
+  font-family: "Balsamiq Sans", cursive;
+}
+.fs_18 {
+  font-size: 18px;
+}
+h1 {
+   
+    text-shadow: 1px 4px 0px 0px rgba(91, 167, 43, 1);
+
+  
+}
+.lh_61 {
+  line-height: 61.9px;
+}
+.mw_655 {
+  max-width: 655px;
+}
+.bg_card {
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.6);
+  background: rgba(255, 255, 255, 0.1);
+  padding: 20px;
+}
+.fs_28 {
+  font-size: 28px;
+}
+.fs_69 {
+  font-size: 69.76px;
+}
+.color_white {
+  color: rgba(255, 255, 255, 0.337);
+}
+.p_20 {
+  padding: 20px;
+}
+.transition_400ms {
+  transition: 400ms;
+}
+.bg_card:hover svg path {
+  opacity: 1;
+}
+:hover.bg_card {
+  background-color: rgba(91, 167, 43, 1);
+}
+.fs_50 {
+  font-size: 50px;
+}
+.fs_24 {
+  font-size: 24px;
+}
+.bigcard {
+  background-color: rgba(91, 167, 43, 1);
+  border-radius: 19px;
+  border: 7px solid white;
+  padding-top: 75px;
+  padding-bottom: 75px;
+  padding-left: 65px;
+  padding-right: 65px;
+}
+.d_none {
+  display: none;
+}
+#bigcard1 {
+  position: absolute;
+  top: 20%;
+}
+#bigcard2 {
+  position: absolute;
+  top: 20%;
+}
+#bigcard3 {
+  position: absolute;
+  top: 20%;
+}
+#bigcard4 {
+  position: absolute;
+  top: 20%;
+}
+.cross {
+  position: absolute;
+  right: -95%;
+  top: 0%;
+  cursor: pointer;
+}
+@media (max-width: 992px) {
+  ul {
+    padding: 0 !important;
+  }
+  .cross {
+    position: absolute;
+    right: -90%;
+    top: 0%;
+    cursor: pointer;
+  }
+}
+@media (max-width: 767px) {
+  .bigcard {
+    padding-top: 45px;
+    padding-bottom: 45px;
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+}
+@media (max-width: 576px) {
+  .bigcard {
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+}
